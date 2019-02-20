@@ -217,10 +217,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b25b807366d23694086f012f74946c16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UpKeyCode: 7700000011010000
-  DownKeyCode: 7300000012010000
-  LeftKeyCode: 6100000014010000
-  RightKeyCode: 13010000
+  UpKeyCodes: 7700000011010000
+  DownKeyCodes: 7300000012010000
+  LeftKeyCodes: 6100000014010000
+  RightKeyCodes: 6400000013010000
 --- !u!4 &941005865
 Transform:
   m_ObjectHideFlags: 0
@@ -246,7 +246,7 @@ GameObject:
   m_Layer: 0
   m_Name: LevelManager
   m_TagString: Untagged
-  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -261,12 +261,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee648ac138890b1459d29847154a7729, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPrefab: {fileID: 1045473089182070, guid: 21454e389934f774394b2440745981f4,
+  PlayerPrefab: {fileID: 114404036315690386, guid: 21454e389934f774394b2440745981f4,
     type: 2}
-  ExitPrefab: {fileID: 1270151600600518, guid: 14bde875f5b5d1a4eb742af933810a14, type: 2}
-  BlockPrefab: {fileID: 1558808882017450, guid: e8149be78bcc01a41a93707566970ce4,
+  ExitPrefab: {fileID: 114446853997649682, guid: 14bde875f5b5d1a4eb742af933810a14,
     type: 2}
-  CratePrefab: {fileID: 1020445469462220, guid: 6d8b5e31df282dc47aac0d181f97b866,
+  BlockPrefab: {fileID: 114375945061808924, guid: e8149be78bcc01a41a93707566970ce4,
+    type: 2}
+  CratePrefab: {fileID: 114631447479111900, guid: 6d8b5e31df282dc47aac0d181f97b866,
     type: 2}
   GroundPrefab: {fileID: 1849497908534580, guid: c3a8e40728a7d4a4ca0366ddfbfcb86a,
     type: 2}
